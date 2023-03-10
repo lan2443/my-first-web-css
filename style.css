@@ -23,7 +23,7 @@ h1 {font-size:60px;
     display: grid;
     grid-template-columns: 150px 1fr;
 }
-@media(max-width:1000px){
+@media(max-width:500px){
     #grid{
     display: block;
     }
@@ -32,5 +32,8 @@ h1 {font-size:60px;
     }
     h1{
         border-bottom:none;
+    }
+    #main{
+    padding: 20px;  
     }
 }
